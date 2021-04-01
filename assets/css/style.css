@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(180deg, #ff0000, #c401ff);
+    color: #ffffff;
+    font-family: 'Segoe UI Semibold';
+}
+
+.container-field, .content {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container-field {
+    display: table;
+    text-align: center;
+}
+
+.content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+a, a:link, a:visited, a:hover {
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
