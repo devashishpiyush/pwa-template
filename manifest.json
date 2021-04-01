@@ -1,0 +1,71 @@
+{
+    "name" : "PWA Version 001",
+    "short_name" : "PWA V1",
+    "start_url" : "./index.html",
+    "background_color": "#000000",
+    "theme_color" : "#000000",
+    "display" : "standalone",
+    "icons" : [
+        {
+            "src" : "logo/logo72x72.jpg",
+            "sizes" : "72x72",
+            "type" : "image/jpg"
+        },
+        {
+            "src" : "logo/logo96x96.jpg",
+            "sizes" : "96x96",
+            "type" : "image/jpg"
+        },
+        {
+            "src" : "logo/logo120x120.jpg",
+            "sizes" : "120x120",
+            "type" : "image/jpg"
+        },
+        {
+            "src" : "logo/logo128x128.jpg",
+            "sizes" : "128x128",
+            "type" : "image/jpg"
+        },
+        {
+            "src" : "logo/logo144x144.jpg",
+            "sizes" : "144x144",
+            "type" : "image/jpg"
+        },
+        {
+            "src" : "logo/logo152x152.jpg",
+            "sizes" : "152x152",
+            "type" : "image/jpg"
+        },
+        {
+            "src" : "logo/logo180x180.jpg",
+            "sizes" : "180x180",
+            "type" : "image/jpg"
+        },
+        {
+            "src" : "logo/logo192x192.jpg",
+            "sizes" : "192x192",
+            "type" : "image/jpg"
+        },
+        {
+            "src" : "logo/logo384x384.jpg",
+            "sizes" : "384x384",
+            "type" : "image/jpg"
+        },
+        {
+            "src" : "logo/logo512x512.jpg",
+            "sizes" : "512x512",
+            "type" : "image/jpg"
+        },
+        {
+            "src" : "logo/l512x512.png",
+            "sizes" : "512x512",
+            "type" : "image/png"
+        },
+        {
+            "src": "logo/logo180x180.jpg",
+            "sizes": "196x196",
+            "type": "image/jpg",
+            "purpose": "any maskable"
+        }
+    ]
+}

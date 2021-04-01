@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <title>Document</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="logo/logo180x180.jpg">
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Segoe UI Semibold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <br /><br /><br />
+    <h1>Welcome to App</h1>
+    <script>
+        if("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("sw.js")
+                .then(registration => {
+                    console.log("SW Registered");
+                    console.log(registration);
+                })
+                .catch(error => {
+                    console.log("SW registration failed");
+                    console.log(error);
+                })
+        }
+    </script>
+</body>
+</html>
